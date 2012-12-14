@@ -2746,7 +2746,7 @@ endfunction
 let nerd_key = 'c'
 if ( exists('loaded_VCSCommand') )
    let nerd_key = 'C'
-fi
+endif
 call s:CreateMaps('nx', 'Comment',    'Comment', nerd_key.'c')
 call s:CreateMaps('nx', 'Toggle',     'Toggle', nerd_key.'<space>')
 call s:CreateMaps('nx', 'Invert',     'Invert', nerd_key.'i')
